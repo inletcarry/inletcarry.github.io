@@ -4,12 +4,19 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>INLET — Everyday carry essentials</title>
-<meta name="description" content="INLET makes everyday carry essentials, starting with a slim pop-up card holder in matte black aluminum. Guide, care tips and custom logo gifts for teams.">
+<meta name="description" content="INLET makes everyday carry essentials, starting with a slim pop-up card holder in matte black aluminum. Guide, care tips and custom engraved gifts for teams.">
 <meta name="theme-color" content="#111111">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://inletcarry.com/">
 <meta property="og:title" content="INLET — Everyday carry essentials">
-<meta property="og:image" content="https://inletcarry.sites.tab.bot/og.png">
-<meta property="og:description" content="INLET makes everyday carry essentials, starting with a slim pop-up card holder in matte black aluminum. Guide, care tips and custom logo gifts for teams.">
-<link rel="icon" href="/favicon.png" type="image/png"><link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<meta property="og:image" content="https://inletcarry.com/og.png">
+<meta property="og:description" content="INLET makes everyday carry essentials, starting with a slim pop-up card holder in matte black aluminum. Guide, care tips and custom engraved gifts for teams.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="INLET — Everyday carry essentials">
+<meta name="twitter:description" content="Slim matte black aluminum pop-up wallet with woven elastic cash strap and luxury gift box.">
+<meta name="twitter:image" content="https://inletcarry.com/og.png">
+<link rel="icon" href="/favicon.png" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -18,6 +25,7 @@
   <div class="wrap bar">
     <a class="brand" href="./" aria-label="INLET home"><span class="mark logo-mask" aria-hidden="true"></span><span class="wordmark">INLET</span></a>
     <nav aria-label="Main">
+      <a class="nav-shop" href="https://www.gift-him.com/products/inlet-cc-001" target="_blank" rel="noopener">Shop</a>
       <a href="guide/">Guide</a>
       <a href="#gifts">Gifts</a>
       <a href="#contact">Contact</a>
@@ -33,20 +41,43 @@
       <p class="tagline">Carry what matters.</p>
       <p class="hero-sub">Everyday carry essentials, made simple. First up: the Pop-Up Wallet.</p>
       <div class="hero-actions">
-        <a class="btn btn-light" href="#product">Meet the wallet</a>
+        <a class="btn btn-light" href="https://www.gift-him.com/products/inlet-cc-001" target="_blank" rel="noopener">Shop Now</a>
         <a class="btn btn-ghost" href="guide/">Your guide</a>
       </div>
     </div>
     <div class="hero-photo">
-      <img src="img/hero.jpg" width="1000" height="1000" alt="INLET matte black gift box with the silver INLET logo">
+      <img src="img/hero.jpg" width="1024" height="1024" alt="INLET matte black aluminum pop-up wallet on a walnut desk with fanned metallic cards and folded cash tucked under the woven elastic strap">
     </div>
   </div>
 </section>
 
 <section class="product" id="product" aria-labelledby="product-title">
   <div class="wrap product-grid">
-    <div class="photo">
-      <img src="img/wallet.jpg" width="1200" height="830" alt="INLET black aluminum card holder with elastic band, resting in its open gift box">
+    <div class="gallery" data-gallery>
+      <div class="gallery-stage">
+        <img id="gallery-main" src="img/wallet.jpg" width="1024" height="1024" alt="INLET matte black aluminum pop-up card holder with fanned metallic cards">
+      </div>
+      <div class="gallery-caption" aria-live="polite">
+        <span class="cap-label" id="gallery-label">Cards popped up</span>
+        <span class="cap-count" id="gallery-count">01 / 05</span>
+      </div>
+      <div class="gallery-thumbs" role="group" aria-label="INLET wallet studio gallery">
+        <button class="thumb is-active" type="button" aria-pressed="true" aria-label="View cards popped up" data-src="img/wallet.jpg" data-alt="INLET matte black aluminum pop-up card holder with fanned metallic cards" data-label="Cards popped up" data-index="01 / 05">
+          <img src="img/wallet.jpg" width="1024" height="1024" alt="">
+        </button>
+        <button class="thumb" type="button" aria-pressed="false" aria-label="View cards and cash strap" data-src="img/hero.jpg" data-alt="INLET wallet on a walnut desk with fanned cards and folded cash tucked under the woven elastic strap" data-label="Cards &amp; cash strap" data-index="02 / 05">
+          <img src="img/hero.jpg" width="1024" height="1024" alt="" loading="lazy">
+        </button>
+        <button class="thumb" type="button" aria-pressed="false" aria-label="View luxury embossed gift box" data-src="img/giftbox.jpg" data-alt="INLET matte black aluminum wallet resting inside its embossed black gift box" data-label="Embossed gift box" data-index="03 / 05">
+          <img src="img/giftbox.jpg" width="1024" height="1024" alt="" loading="lazy">
+        </button>
+        <button class="thumb" type="button" aria-pressed="false" aria-label="View aluminum craftsmanship detail" data-src="img/spine.jpg" data-alt="Close-up profile of the INLET anodized aluminum spine, thumb lever and woven strap" data-label="Aluminum detail" data-index="04 / 05">
+          <img src="img/spine.jpg" width="1024" height="1024" alt="" loading="lazy">
+        </button>
+        <button class="thumb" type="button" aria-pressed="false" aria-label="View custom laser engraving" data-src="img/engraved.jpg" data-alt="Matte black aluminum back of the INLET wallet with crisp silver-white custom laser engraving" data-label="Custom laser engraving" data-index="05 / 05">
+          <img src="img/engraved.jpg" width="1024" height="1024" alt="" loading="lazy">
+        </button>
+      </div>
     </div>
     <div>
       <p class="eyebrow">Essential No. 01 · The Pop-Up Wallet</p>
@@ -54,10 +85,13 @@
       <p class="muted">A pop-up card holder in matte black aluminum. Push the lever and your cards fan out, ready to grab. Nothing else to fold or dig through.</p>
       <ul class="features">
         <li><span class="dot"></span><div><strong>Pop-up card access</strong><span class="d">One push of the lever and your cards slide out in a neat fan.</span></div></li>
-        <li><span class="dot"></span><div><strong>Elastic band</strong><span class="d">Extra cards, folded cash or a receipt go under the band on the back.</span></div></li>
+        <li><span class="dot"></span><div><strong>Elastic band</strong><span class="d">Extra cards, folded cash or a receipt tuck neatly under the woven elastic strap.</span></div></li>
         <li><span class="dot"></span><div><strong>Aluminum case</strong><span class="d">Slim and light, with the kind of aluminum shell used in RFID-blocking wallets.</span></div></li>
         <li><span class="dot"></span><div><strong>Gift box included</strong><span class="d">Every INLET comes in a black gift box, ready to give.</span></div></li>
       </ul>
+      <div class="product-cta">
+        <a class="btn btn-dark" href="https://www.gift-him.com/products/inlet-cc-001" target="_blank" rel="noopener">Shop Now — $60</a>
+      </div>
       <p class="next">More INLET essentials are on the way.</p>
     </div>
   </div>
@@ -82,7 +116,7 @@
       <h2 id="guide-title">How to use your INLET</h2>
       <p class="muted">Push, fan out, grab. Here’s everything else in a minute.</p>
     </div>
-    
+
   <div class="guide-grid">
     <article class="step-card">
       <span class="step-num">01</span>
@@ -102,7 +136,7 @@
     <article class="step-card">
       <span class="step-num">04</span>
       <h3>Use the band</h3>
-      <p>The elastic band on the back holds extra cards, a few folded bills or a receipt. Slip them under the band flat.</p>
+      <p>The woven elastic strap holds extra cards, a few folded bills or a receipt. Slip them flat under the woven elastic strap.</p>
     </article>
   </div>
 
@@ -115,7 +149,7 @@
     <h3>Care</h3>
     <ul>
       <li>Wipe the case with a soft, dry cloth. No harsh cleaners, and don’t soak it.</li>
-      <li>Don’t overstuff the elastic band or fold it backwards, so it keeps its stretch.</li>
+      <li>Don’t overstuff the woven elastic strap or fold it backwards, so it keeps its stretch.</li>
       <li>Keep it in a different pocket from your keys to protect the matte finish.</li>
       <li>Don’t force the lever. If it sticks, remove a card and try again.</li>
     </ul>
@@ -125,11 +159,11 @@
     <h3>FAQ</h3>
     <details>
       <summary>How many cards does it hold?</summary>
-      <p>Your everyday cards fit in the pop-up case, and the band carries extras. It depends on how thick your cards are, so go by the fit tip above: if a card won’t slide in easily, the case is full.</p>
+      <p>Your everyday cards fit in the pop-up case, and the woven elastic strap carries extras. It depends on how thick your cards are, so go by the fit tip above: if a card won’t slide in easily, the case is full.</p>
     </details>
     <details>
       <summary>Does it block contactless scanning?</summary>
-      <p>The case is made of aluminum, a material commonly used in RFID-blocking wallets to help shield cards stored inside. To tap and pay, pop the card out first. Cards under the elastic band sit outside the case.</p>
+      <p>The case is made of aluminum, a material commonly used in RFID-blocking wallets to help shield cards stored inside. To tap and pay, pop the card out first. Cards under the woven elastic strap sit outside the case.</p>
     </details>
     <details>
       <summary>My cards don’t pop up all the way.</summary>
@@ -151,18 +185,18 @@
 <section class="gifts" id="gifts" aria-labelledby="gifts-title">
   <div class="wrap gift-grid">
     <div>
-      <p class="eyebrow">Corporate gifts</p>
+      <p class="eyebrow">Custom &amp; corporate gifts</p>
       <h2 id="gifts-title">A gift your team will actually carry.</h2>
-      <p class="muted">Your company logo engraved on every INLET wallet, packed in the INLET gift box. For your team, your clients, or your next event.</p>
+      <p class="muted">Your company logo or individual names laser-engraved on the matte black aluminum back, packed in the INLET gift box. For your team, your clients, or your next event.</p>
       <ol class="gift-list">
-        <li>Send us your logo and how many you need.</li>
+        <li>Send us your logo or name list and how many you need.</li>
         <li>We send you a mockup and a price.</li>
         <li>We engrave, box and deliver.</li>
       </ol>
       <a class="btn btn-light" href="mailto:inletcarry@gmail.com?subject=Custom%20INLET%20wallets%20for%20my%20team"><span>Order for your team</span></a>
     </div>
     <div class="photo">
-      <img src="img/box-side.jpg" width="900" height="900" alt="INLET gift box with the INLET name on its side">
+      <img src="img/engraved.jpg" width="1024" height="1024" alt="Matte black aluminum back of the INLET wallet with crisp silver-white custom laser engraving">
     </div>
   </div>
 </section>
@@ -199,5 +233,6 @@
     <p class="small">© 2026 INLET</p>
   </div>
 </footer>
+<script src="script.js" defer></script>
 </body>
 </html>
